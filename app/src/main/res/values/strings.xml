@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Lifecycle-Aware Weather</string>
+
+    <string name="loading_error">Unable to fetch forecast data.  Error message: %1$s</string>
+    <string name="action_map_error">No app was found to map the forecast location.  Please install a maps app on your device and try again.</string>
+
+    <string name="forecast_date">%1$tb %1$te</string>
+    <string name="forecast_time">%1$tl:%1$tM %1$tp</string>
+    <string name="forecast_temp">%1$d°%2$s</string>
+    <string name="forecast_pop">%1$d%%</string>
+    <string name="forecast_clouds">%1$d%%</string>
+    <string name="forecast_wind">%1$d%2$s</string>
+    <string name="forecast_date_time">%1$tb %1$te, %1$tl:%1$tM %1$tp</string>
+
+    <string name="action_map_title">View forecast location in map</string>
+    <string name="action_share_title">Share this forecast</string>
+
+    <string name="geo_uri">geo:%1$f,%2$f?z=%3$d</string>
+
+    <string name="share_forecast_text">Weather forecast from %1$s for %2$s, %3$s: %4$s with a high of %5$s, a low of %6$s, and a %7$s chance of precipitation.</string>
+
+    <string name= "pref_weather_search">Weather Settings</string>
+    <string name ="pref_location_title">Location</string>
+    <string name ="pref_unit_title">Unit Type</string>
+    <string name ="pref_location_key" translatable="false">location</string>
+    <string name ="pref_unit_key" translatable="false">unit</string>
+    <string name ="pref_unit_entry_imperial">Fahrenheit</string>
+    <string name ="pref_unit_entry_metric">Celsius</string>
+    <string name ="pref_unit_entry_standard">Kelvin</string>
+    <string name ="pref_unit_value_imperial">imperial</string>
+    <string name ="pref_unit_value_metric">metric</string>
+    <string name ="pref_unit_value_standard">standard</string>
+    <string name ="pref_unit_default">@string/pref_unit_value_imperial</string>
+</resources>
